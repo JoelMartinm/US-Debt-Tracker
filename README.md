@@ -1,9 +1,5 @@
 # US Debt Tracker Project
 
-**Author:** Joel Martin  
-**GitHub:** [JoelMartinm](https://github.com/JoelMartinm)  
-**Tool:** Microsoft Excel  
-
 ---
 
 ## Project Overview
@@ -50,9 +46,10 @@ This ensures the dataset is **consistent, clean, and ready for analysis**.
 - Built a line chart to visualize trends from 2000 to 2025.
 
 **Insight:**  
-From 2016–2019, the average increase in total public debt was around 5%. In 2020, a sharp spike occurred, likely due to **pandemic-related government spending**.  
+Between 2016 and 2019, the average annual increase in total public debt was approximately 5%. In 2020, a sharp spike occurred, likely due to **pandemic-related government spending**.  
 
-<img width="741" height="481" alt="image" src="https://github.com/user-attachments/assets/24ac4615-9b27-4867-a307-4e67af7214a4" />
+<img width="741" height="481" alt="image" src="https://github.com/user-attachments/assets/fe6bd55e-6d67-476a-8a04-f7262662f662" />
+
 *Figure 1: Yearly Percentage Growth of US Total Public Debt*
 
 ---
@@ -69,6 +66,7 @@ From 2016–2019, the average increase in total public debt was around 5%. In 20
 **Hypothesis:** High months coincide with major US holidays (e.g., Thanksgiving, Christmas) when spending and debt accumulation increase. Low months have no significant holidays, resulting in lower debt.  
 
 <img width="970" height="545" alt="image" src="https://github.com/user-attachments/assets/d8e7c775-ff10-49f1-b113-69abe49fabc6" />
+
 *Figure 2: Monthly Increases in US Total Public Debt*
 
 ---
@@ -85,9 +83,9 @@ From 2016–2019, the average increase in total public debt was around 5%. In 20
 
 **Conclusion:** Publicly held debt is expected to grow steadily over the next 5 years. Further analysis could explore correlations with **stock market trends, housing market, credit card usage, and unemployment rates**.  
 
-<img width="751" height="452" alt="image" src="https://github.com/user-attachments/assets/f4d689a5-0e48-4885-a533-8d1f26838a05" />
+<img width="751" height="452" alt="image" src="https://github.com/user-attachments/assets/364c5c08-ad93-42cd-ba4f-c879e5b6138d" />
 
-*Figure 4: Forecasted Growth of Publicly Held Debt*
+*Figure 3: Forecasted Growth of Publicly Held Debt*
 
 ---
 
