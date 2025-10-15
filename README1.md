@@ -6,19 +6,19 @@
 
 ---
 
-## 🧩 Project Overview
+## Project Overview
 
 The **US Debt Tracker Project** is an Excel-based data analysis portfolio project that examines how the **United States Total Public Debt Outstanding** has evolved from 2000 to 2025.  
-It demonstrates data cleaning, transformation, growth rate calculation, and forecasting skills — all visualized in Excel.
 
+This project demonstrates skills in **data cleaning, transformation, growth rate calculation, forecasting**, and **visualization** using Excel.
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 
-- **Source:** [U.S. Treasury Fiscal Data](https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny)
-- **Time Period:** 2000 – 2025
-- **Frequency:** Daily (aggregated to yearly)
+- **Source:** [U.S. Treasury Fiscal Data](https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny)  
+- **Time Period:** 2000 – 2025  
+- **Frequency:** Daily (aggregated to yearly)  
 - **Fields:**
   - Record Date  
   - Debt Held by the Public  
@@ -27,61 +27,76 @@ It demonstrates data cleaning, transformation, growth rate calculation, and fore
 
 ---
 
-## 🧮 Key Analyses
+##  Data Cleaning & Preparation
 
-| Step | Description |
-|------|--------------|
-| Data Cleaning | Removed nulls, standardized formats |
-| Aggregation | Converted daily data to yearly summaries |
-| Growth Analysis | Calculated yearly % change |
-| Forecasting |
-| Visualization | Built Excel charts and dashboards |
+**Steps performed:**
 
----
+1. Transposed and pasted raw data into a new sheet called `Cleaned Data`.
+2. Selected all blanks and deleted them.
+3. Replaced all `null` values with empty strings (`''`).
+4. Converted numbers in scientific notation to standard numeric format.
+5. Aggregated daily data into yearly summaries.
+6. Attempted pivot tables but opted to clean and organize data manually due to formatting issues.
 
-## 📈 Insights
-
-- What was the Yearly Debt Percentage Increase for each year compared to the previous year?
-- <img width="1262" height="479" alt="image" src="https://github.com/user-attachments/assets/e78ef72c-8f8d-4804-9352-8302b81e2daa" />
-
-"Summary/Conclusion: For the total Public Debt Outstanding in previous years 2016-2019, the average increase was around 5%. In 2020, we see a large spike that was most likely caused by the  Pandemic responses in the US
-"
-
-- Which months historically have seen the highest/lowest increases in Total debt?
-- <img width="1487" height="469" alt="image" src="https://github.com/user-attachments/assets/aedc04d3-e6c2-473e-9ff7-9fc3009a19a3" />
--Summary/Conclusion: Highest Debt Increases historically occur during the months of January, February, November and December.
-Lowest Debt Increase months hitorically occur during the months of May, June and July.
-Hypothesis: During the high months, there are holidays in the US such as Thanksgiving, Christmas that people historically spend money buying gifts for others or themselves . People take out debt for these months to buy these gifts.
-During low months, there are no major holidays. So people are taking on less debt during this time
-
-<img width="395" height="214" alt="image" src="https://github.com/user-attachments/assets/ecdbbc0d-6c8d-43c3-92aa-1b894b323da2" />
-
-- What is the projected growth of the publicly held debt in the next few years?
-- <img width="1110" height="470" alt="image" src="https://github.com/user-attachments/assets/89897783-e914-4bf2-bf8a-b7ef3e75eb60" />
-
-SUMMARY/CONCLUSIONS: From 1997 to 2007 we saw an increase of about 1 Trillion in publicly held debt.From 2008 to 2019, debt increased from 6 Trillion to 17 Trillion.
-From 2020 to 2022, debt Increased from 21.5 Trillion to 25 Trillion.
-From 2023 to 2027 it is projected that publicly held debt will increase to 33 Trillion.
-In conclusion, publicly held debt is projected to increase at a steady increased rate over the 5 years. Ideas to research: Stock Market, Housing Market, Credit Card purchases, Unemployment rates "
-
+This ensures the dataset is **consistent, clean, and ready for analysis**.
 
 ---
 
-## Skills Demonstrated
+## Key Analyses
 
-- Excel Data Cleaning & Transformation   
-- Charting & Dashboard Layout  
-- Forecasting Techniques  
-- Data Storytelling  
+### 1. How has the US Total Public Debt changed year by year?
+
+- Calculated **yearly percentage growth** of Total Public Debt Outstanding.  
+- Built a line chart to visualize trends from 2000 to 2025.
+
+**Insight:**  
+From 2016–2019, the average increase in total public debt was around 5%. In 2020, a sharp spike occurred, likely due to **pandemic-related government spending**.  
+
+<img width="741" height="481" alt="image" src="https://github.com/user-attachments/assets/24ac4615-9b27-4867-a307-4e67af7214a4" />
+*Figure 1: Yearly Percentage Growth of US Total Public Debt*
 
 ---
 
-## Visualization Placeholders
+### 2. Which months historically see the highest and lowest debt increases?
 
-*(Add Excel screenshots or exported charts here)*  
-- `Debt Over Time`  
-- `YOY Growth %`  
-- `Debt Composition`  
-- `Forecast Trend`
+- Aggregated debt changes by month to identify **seasonal trends**.  
+- Visualized using column charts.
+
+**Insight:**  
+- **Highest increases:** January, February, November, December.  
+- **Lowest increases:** May, June, July.  
+
+**Hypothesis:** High months coincide with major US holidays (e.g., Thanksgiving, Christmas) when spending and debt accumulation increase. Low months have no significant holidays, resulting in lower debt.  
+
+<img width="970" height="545" alt="image" src="https://github.com/user-attachments/assets/d8e7c775-ff10-49f1-b113-69abe49fabc6" />
+*Figure 2: Monthly Increases in US Total Public Debt*
+
+---
+
+### 3. What is the projected growth of publicly held debt?
+
+- Applied **forecasting techniques** in Excel to estimate future debt trends.  
+
+**Summary:**  
+- From 1997–2007: debt increased ~1 Trillion USD.  
+- From 2008–2019: debt rose from 6 Trillion to 17 Trillion USD.  
+- From 2020–2022: debt increased from 21.5 Trillion to 25 Trillion USD.  
+- Projected 2023–2027: debt expected to reach 33 Trillion USD.  
+
+**Conclusion:** Publicly held debt is expected to grow steadily over the next 5 years. Further analysis could explore correlations with **stock market trends, housing market, credit card usage, and unemployment rates**.  
+
+<img width="751" height="452" alt="image" src="https://github.com/user-attachments/assets/f4d689a5-0e48-4885-a533-8d1f26838a05" />
+
+*Figure 4: Forecasted Growth of Publicly Held Debt*
+
+---
+
+##  Skills Demonstrated
+
+- Excel **Data Cleaning & Transformation**  
+- **Aggregation & Pivoting**  
+- **Charting & Dashboard Design**  
+- Forecasting and trend analysis  
+- Data storytelling and interpretation  
 
 ---
